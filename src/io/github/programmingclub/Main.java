@@ -2,8 +2,15 @@ package io.github.programmingclub;
 
 public class Main {
 
+	private static class Info {
+		private static String VERSION = "0.0.1";
+	}
+
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		System.out.println("-------------Initiating Sudoku Solver v"
+				+ Info.VERSION + "-------------");
+		
+		
 
 	}
 
