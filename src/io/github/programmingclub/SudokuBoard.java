@@ -181,7 +181,6 @@ public class SudokuBoard {
 	 * continues until it cannot update anything else.
 	 */
 	public void solveLogically() {
-
 		boolean changed = false;
 		for (int i = 0; i < 81; i++) {
 			if (grid.get(i).getPossibilities().size() == 1) {
@@ -193,7 +192,6 @@ public class SudokuBoard {
 		if (changed) {
 			solveLogically();
 		}
-
 	}
 
 	/**
