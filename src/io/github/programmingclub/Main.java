@@ -8,10 +8,9 @@ public class Main {
 
 	public static void main(String[] args) {
 		System.out.println("-------------Initiating Sudoku Solver v"
-				+ Info.VERSION + "-------------");
+				+ Info.VERSION + "-------------\n");
 		
 		
-
+		SudokuBoard test = new SudokuBoard();
 	}
-
 }
